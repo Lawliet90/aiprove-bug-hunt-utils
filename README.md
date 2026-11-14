@@ -15,8 +15,7 @@ only genuine bugs.
 | 2 | `countVowels` | `"AEIOU"` | `0` | `5` |
 | 3 | `reverse` | `"😀a"` | `"a\uDE00\uD83D"` (lone surrogates) | `"a😀"` |
 
-Machine-readable entry: [`bugs.json`](bugs.json) — `[{fn, input, expected}]`, with
-`input` as the function's single argument, per the challenge README.
+Machine-readable entry: [`bugs.json`](bugs.json) — `[{fn, input, expected}]`, with `input` as the argument list (array), per the submitted entry.
 Full write-ups (root cause + verification evidence + dropped candidates):
 [`bugs.md`](bugs.md).
 

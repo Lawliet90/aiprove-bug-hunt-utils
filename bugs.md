@@ -2,8 +2,7 @@
 
 Source: https://github.com/AIProveRH/aiprove/tree/main/challenges/bug-hunt-utils
 (`utils.js` copied here as `utils-under-test.js` for local verification.)
-Machine-readable entry: `bugs.json` — a JSON list `[{fn, input, expected}]`, where
-`input` is the function's single argument, exactly as the challenge README specifies.
+Machine-readable entry: `bugs.json` — a JSON list `[{fn, input, expected}]`, where `input` is the argument list (array) for the function, exactly as submitted to the API.
 Re-run all reports with `node verify.js`.
 
 ## Bug 1 — `factorial` drops the final factor
